@@ -17,6 +17,7 @@ h6 {
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 #logo_left{
@@ -27,9 +28,22 @@ h6 {
   color: #ff6347;
   font-size: 55px;
 }
+.logo > a{
+  text-decoration: none;
+}
+
 .main-navigation > ul > li {
   display: inline-flex;
   margin-left: 60px;
-  font-weight: 700;
   margin-right: 50px;
+}
+.main-navigation{
+  margin-left: 100px;
+  margin-bottom: 30px;
+}
+.main-navigation > ul > li > a{
+  color: #ffffff;
+}
+.main-navigation > ul > li > a:hover{
+  text-decoration-style: dashed;
 }
