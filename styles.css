@@ -18,10 +18,12 @@ h6 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 100px;
 }
 
 #logo_left{
   font-size: 35px;
+  color: #ffffff;
 }
 
 #logo_right{
@@ -34,16 +36,12 @@ h6 {
 
 .main-navigation > ul > li {
   display: inline-flex;
-  margin-left: 60px;
-  margin-right: 50px;
-}
-.main-navigation{
-  margin-left: 100px;
   margin-bottom: 30px;
 }
 .main-navigation > ul > li > a{
   color: #ffffff;
+  text-decoration: none;
 }
 .main-navigation > ul > li > a:hover{
-  text-decoration-style: dashed;
+  text-decoration: underline;
 }
