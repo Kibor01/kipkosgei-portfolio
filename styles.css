@@ -48,3 +48,10 @@ h6 {
 .main-navigation > ul > li > a:hover {
   text-decoration: underline;
 }
+
+.media-icon{
+  display: inline-flex;
+  gap: 40px;
+  align-items: center;
+  text-align: left;
+}
