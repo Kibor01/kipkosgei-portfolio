@@ -49,9 +49,23 @@ h6 {
   text-decoration: underline;
 }
 
-.media-icon{
+.media-icon {
   display: inline-flex;
-  gap: 40px;
-  align-items: center;
-  text-align: left;
+  gap: 70px;
+}
+.media-icon > a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+.media-icon > a:hover {
+  text-decoration: none;
+}
+.media-icon > a:hover {
+  text-decoration: dashed;
+}
+.footer {
+  text-align: right;
+}
+.footer {
+  font-family: serif;
 }
