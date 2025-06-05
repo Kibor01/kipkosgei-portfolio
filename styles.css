@@ -48,24 +48,22 @@ h6 {
 .main-navigation > ul > li > a:hover {
   text-decoration: underline;
 }
-
-.media-icon {
-  display: inline-flex;
-  gap: 70px;
+.copyright {
+  text-align: left;
 }
-.media-icon > a:hover {
+.social-links > ul > li {
+  display: inline-flex;
+}
+
+.social-links > ul > li {
+  align-items: center;
+  margin-right: 60px;
+}
+
+.social-links > ul > li > a:hover {
   color: #ffffff;
   text-decoration: none;
 }
-.media-icon > a:hover {
-  text-decoration: none;
-}
-.media-icon > a:hover {
-  text-decoration: dashed;
-}
-.footer {
-  text-align: right;
-}
-.footer {
-  font-family: serif;
+.social-links > ul > li > a:hover {
+  text-decoration: underline;
 }
