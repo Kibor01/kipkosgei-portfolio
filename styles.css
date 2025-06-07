@@ -53,11 +53,13 @@ h6 {
 }
 .social-links > ul > li {
   display: inline-flex;
+  list-style-type: none;
 }
 
 .social-links > ul > li {
-  align-items: center;
+  align-items: right;
   margin-right: 60px;
+  gap: 30px;
 }
 
 .social-links > ul > li > a:hover {
@@ -66,4 +68,8 @@ h6 {
 }
 .social-links > ul > li > a:hover {
   text-decoration: underline;
+}
+
+.social-links > ul > li {
+  margin: 10px 50px  10px;
 }
