@@ -48,6 +48,8 @@ h6 {
 .main-navigation > ul > li > a:hover {
   text-decoration: underline;
 }
+
+/*Footer Styles*/
 .copyright {
   text-align: left;
 }
@@ -71,5 +73,5 @@ h6 {
 }
 
 .social-links > ul > li {
-  margin: 10px 50px  10px;
+  margin: 10px 50px 10px;
 }
