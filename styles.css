@@ -48,3 +48,30 @@ h6 {
 .main-navigation > ul > li > a:hover {
   text-decoration: underline;
 }
+
+/*Footer Styles*/
+.copyright {
+  text-align: left;
+}
+.social-links > ul > li {
+  display: inline-flex;
+  list-style-type: none;
+}
+
+.social-links > ul > li {
+  align-items: right;
+  margin-right: 60px;
+  gap: 30px;
+}
+
+.social-links > ul > li > a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+.social-links > ul > li > a:hover {
+  text-decoration: underline;
+}
+
+.social-links > ul > li {
+  margin: 10px 50px 10px;
+}
