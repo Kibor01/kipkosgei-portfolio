@@ -50,28 +50,36 @@ h6 {
 }
 
 /*Footer Styles*/
+footer{
+  display: flex;
+  align-items: center;
+  gap: 300px;
+  padding: 20px;
+}
+
 .copyright {
   text-align: left;
 }
-.social-links > ul > li {
-  display: inline-flex;
-  list-style-type: none;
-}
 
-.social-links > ul > li {
-  align-items: right;
-  margin-right: 60px;
+.social-links {
+  display: flex;
   gap: 30px;
 }
 
-.social-links > ul > li > a:hover {
+.social-links > a {
   color: #ffffff;
+  transition: all 0.4s ease-in-out;
+  background-color: #ff6347;
+  padding: 10px;
   text-decoration: none;
 }
-.social-links > ul > li > a:hover {
+
+.social-links > a:hover {
   text-decoration: underline;
+  background-color: #ffffff;
+  color: #ff6347;
 }
 
-.social-links > ul > li {
-  margin: 10px 50px 10px;
+.social-links > a > i{
+  font-size: 2em;
 }
