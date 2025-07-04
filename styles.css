@@ -83,3 +83,32 @@ footer{
 .social-links > a > i{
   font-size: 2em;
 }
+
+.flex-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-container > ul > li > h4{
+  align-items: self-start;
+}
+
+.cta-button a:hover{
+  background-color: #ffffff;
+  color: #ff6347;
+
+}
+
+img{
+  border-radius: 50%;
+  width: 900px;
+  height: 350px;
+}
+
+.kip{
+  text-align: right;
+}
+
+.kip > h5{
+  text-align: center;
+}
