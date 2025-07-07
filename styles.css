@@ -100,12 +100,12 @@ footer{
 }
 
 img{
-  border-radius: 50%;
-  width: 900px;
+  float: right;
+  width: 1200px;
   height: 350px;
 }
 
-.kip{
+.kip > h6{
   text-align: right;
 }
 
