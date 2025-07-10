@@ -84,31 +84,22 @@ footer{
   font-size: 2em;
 }
 
-.flex-container{
+/*main-container styles*/
+.main-container{
   display: flex;
-  flex-direction: row;
 }
 
-.flex-container > ul > li > h4{
-  align-items: self-start;
+.main-container > intrroduction-left{
+  display: flex;
+  flex-direction: column;
+}
+
+.main-container > introduction-right{
+  display: flex;
+  flex-direction: column;
 }
 
 .cta-button a:hover{
   background-color: #ffffff;
   color: #ff6347;
-
-}
-
-img{
-  float: right;
-  width: 1700px;
-  height: 350px;
-}
-
-.kip > h6{
-  text-align: right;
-}
-
-.kip > h5{
-  text-align: center;
 }
