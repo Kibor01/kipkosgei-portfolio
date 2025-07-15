@@ -57,13 +57,11 @@ h6 {
 .introduction > introduction-left{
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
 }
 
 .introduction > introduction-right{
   display: flex;
   flex-direction: column;
-  align-self: flex-end;
 }
 
 .cta-button a:hover{
