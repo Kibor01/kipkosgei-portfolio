@@ -49,6 +49,29 @@ h6 {
   text-decoration: underline;
 }
 
+/*main-container styles*/
+.introduction{
+  display: flex;
+}
+
+.introduction > introduction-left{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.introduction > introduction-right{
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+}
+
+.cta-button a:hover{
+  background-color: #ffffff;
+  color: #ff6347;
+}
+
+
 /*Footer Styles*/
 footer{
   display: flex;
@@ -82,24 +105,4 @@ footer{
 
 .social-links > a > i{
   font-size: 2em;
-}
-
-/*main-container styles*/
-.main-container{
-  display: flex;
-}
-
-.main-container > intrroduction-left{
-  display: flex;
-  flex-direction: column;
-}
-
-.main-container > introduction-right{
-  display: flex;
-  flex-direction: column;
-}
-
-.cta-button a:hover{
-  background-color: #ffffff;
-  color: #ff6347;
 }
