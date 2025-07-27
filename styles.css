@@ -50,30 +50,20 @@ h6 {
 }
 
 /*main-container styles*/
-.introduction{
+.introduction {
   display: flex;
+}
+
+.introduction-left {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
   gap: 10px;
-  padding: 20px;
+  padding: 10px;
 }
 
-.intro-heading{
+.cta-button a {
   display: flex;
-  flex: 1;
-  flex-direction: column;
-}
-
-.introduction-right{
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-}
-
-.introduction-right img{
-  width: 400px;
-  height: 600px;
-}
-
-.cta-button a{
   background-color: #ffffff;
   color: #ff6347;
   transition: all 0.4s ease-in-out;
@@ -81,14 +71,25 @@ h6 {
   text-decoration: none;
 }
 
-.cta-button > a:hover{
+.cta-button > a:hover {
   text-decoration: underline;
   background-color: #ff6347;
   color: #fff;
 }
 
+.introduction-right {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.introduction-right img {
+  width: 400px;
+  height: 600px;
+}
+
 /*Footer Styles*/
-footer{
+footer {
   display: flex;
   align-items: center;
   gap: 300px;
@@ -105,7 +106,7 @@ footer{
 }
 
 .social-links > a {
-  color: #ffffff; 
+  color: #ffffff;
   transition: all 0.4s ease-in-out;
   background-color: #ff6347;
   padding: 10px;
@@ -118,6 +119,6 @@ footer{
   color: #ff6347;
 }
 
-.social-links > a > i{
+.social-links > a > i {
   font-size: 2em;
 }
