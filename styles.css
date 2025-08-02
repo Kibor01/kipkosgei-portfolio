@@ -49,8 +49,47 @@ h6 {
   text-decoration: underline;
 }
 
+/*main-container styles*/
+.introduction {
+  display: flex;
+}
+
+.introduction-left {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 10px;
+  padding: 10px;
+}
+
+.cta-button a {
+  display: flex;
+  background-color: #ffffff;
+  color: #ff6347;
+  transition: all 0.4s ease-in-out;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.cta-button > a:hover {
+  text-decoration: underline;
+  background-color: #ff6347;
+  color: #fff;
+}
+
+.introduction-right {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.introduction-right img {
+  width: 400px;
+  height: 600px;
+}
+
 /*Footer Styles*/
-footer{
+footer {
   display: flex;
   align-items: center;
   gap: 300px;
@@ -80,6 +119,6 @@ footer{
   color: #ff6347;
 }
 
-.social-links > a > i{
+.social-links > a > i {
   font-size: 2em;
 }
