@@ -88,6 +88,54 @@ h6 {
   height: 600px;
 }
 
+.my-services {
+  display: flex;
+  flex-direction: row;
+}
+
+.my-services h2 {
+  text-align: center;
+}
+
+.web {
+  background-color: #000000;
+  width: 500px;
+  border: 10px solid #fff;
+  padding: 20px;
+  margin: 10px;
+}
+
+.web img {
+  width: 250px;
+  height: 100px;
+}
+
+.front img {
+  width: 250px;
+  height: 100px;
+}
+
+.react img {
+  width: 250px;
+  height: 100px;
+}
+
+.front {
+  background-color: #000000;
+  width: 500px;
+  border: 10px solid #fff;
+  padding: 20px;
+  margin: 10px;
+}
+
+.react {
+  background-color: #000000;
+  width: 500px;
+  border: 10px solid #fff;
+  padding: 20px;
+  margin: 10px;
+}
+
 /*Footer Styles*/
 footer {
   display: flex;
