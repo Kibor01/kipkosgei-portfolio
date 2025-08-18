@@ -88,13 +88,13 @@ h6 {
   height: 600px;
 }
 
+.hed {
+  text-align: center;
+}
+
 .my-services {
   display: flex;
   flex-direction: row;
-}
-
-.my-services h2 {
-  text-align: center;
 }
 
 .web {
