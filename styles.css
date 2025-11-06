@@ -13,6 +13,22 @@ h5,
 h6 {
   text-transform: capitalize;
 }
+
+a {
+  color: #ff6347;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+a,
+button {
+  transition: all 400ms ease-in-out;
+}
+
 /*Header Styles*/
 .header {
   display: flex;
@@ -46,12 +62,19 @@ h6 {
 }
 
 .main-navigation > ul > li > a:hover {
+  color: #ff6347;
   text-decoration: underline;
 }
 
-/*main-container styles*/
+/*main-container and children styles*/
+.main-container {
+  padding: 0 40px 0;
+}
+
+/*introduction section*/
 .introduction {
   display: flex;
+  margin-bottom: 70px;
 }
 
 .introduction-left {
@@ -63,16 +86,12 @@ h6 {
 }
 
 .cta-button a {
-  display: flex;
   background-color: #ffffff;
   color: #ff6347;
-  transition: all 0.4s ease-in-out;
   padding: 10px;
-  text-decoration: none;
 }
 
 .cta-button > a:hover {
-  text-decoration: underline;
   background-color: #ff6347;
   color: #fff;
 }
@@ -80,12 +99,43 @@ h6 {
 .introduction-right {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   flex: 1;
+  padding: 10px;
+  margin-top: 50px;
 }
 
 .introduction-right img {
-  width: 400px;
-  height: 600px;
+  width: 300px;
+  height: 300px;
+  border: 5px solid #fff;
+}
+
+/*my-services section*/
+.my-services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+}
+
+.service-box {
+  width: fit-content;
+  padding: 20px;
+  margin: 10px;
+  border: 5px solid #ffffff;
+  box-sizing: border-box;
+}
+
+.service-box img {
+  width: 250px;
+  height: 100px;
 }
 
 /*Footer Styles*/
