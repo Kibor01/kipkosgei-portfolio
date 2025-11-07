@@ -138,6 +138,20 @@ button {
   height: 100px;
 }
 
+/*recent-projects*/
+.recent-projects {
+  text-align: center;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+}
+
+.recent-projects > button {
+  gap: 50px;
+}
+
 /*Footer Styles*/
 footer {
   display: flex;
