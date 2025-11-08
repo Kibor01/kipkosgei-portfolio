@@ -148,10 +148,6 @@ button {
   grid-template-columns: repeat(2, 2fr);
 }
 
-.recent-projects > button {
-  gap: 50px;
-}
-
 /*Footer Styles*/
 footer {
   display: flex;
