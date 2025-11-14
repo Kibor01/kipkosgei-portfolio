@@ -139,13 +139,15 @@ button {
 }
 
 /*recent-projects*/
-.recent-projects {
-  text-align: center;
+.recent-projects > project-details {
+  display: grid;
+  grid-template-columns: 2, 2fr;
+  flex-direction: column;
 }
 
-.projects-container {
-  display: grid;
-  grid-template-columns: repeat(2, 2fr);
+.recent-projects h2 {
+  text-align: center;
+  margin-bottom: 70px;
 }
 
 /*Footer Styles*/
