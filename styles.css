@@ -118,6 +118,7 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 70px;
 }
 
 .services-grid {
@@ -138,16 +139,32 @@ button {
   height: 100px;
 }
 
-/*recent-projects*/
-.recent-projects > project-details {
-  display: grid;
-  grid-template-columns: 2, 2fr;
+/*recent-projects styles*/
+
+.recent-projects {
+  display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 70px;
 }
 
-.recent-projects h2 {
-  text-align: center;
-  margin-bottom: 70px;
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+}
+
+.project-grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex;
+  gap: 30px;
+}
+
+.project-grid video-clip {
+  display: flex;
+  flex-direction: column;
 }
 
 /*Footer Styles*/
