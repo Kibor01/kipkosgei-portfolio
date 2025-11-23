@@ -47,21 +47,21 @@ button {
   font-size: 55px;
 }
 
-.logo > a {
+.logo>a {
   text-decoration: none;
 }
 
-.main-navigation > ul > li {
+.main-navigation>ul>li {
   display: inline-flex;
   margin-right: 30px;
 }
 
-.main-navigation > ul > li > a {
+.main-navigation>ul>li>a {
   color: #ffffff;
   text-decoration: none;
 }
 
-.main-navigation > ul > li > a:hover {
+.main-navigation>ul>li>a:hover {
   color: #ff6347;
   text-decoration: underline;
 }
@@ -91,7 +91,7 @@ button {
   padding: 10px;
 }
 
-.cta-button > a:hover {
+.cta-button>a:hover {
   background-color: #ff6347;
   color: #fff;
 }
@@ -151,20 +151,20 @@ button {
 
 .projects-container {
   display: grid;
-  grid-template-columns: repeat(2, 2fr);
+  grid-template-columns: repeat(3fr, 2fr);
+  align-items: center;
 }
 
 .project-grid {
-  display: flex;
+  display: grid;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex;
   gap: 30px;
 }
 
-.project-grid video-clip {
-  display: flex;
-  flex-direction: column;
+.project-details {
+  display: grid;
+  align-items: center;
+  justify-content: center;
 }
 
 /*Footer Styles*/
@@ -184,7 +184,7 @@ footer {
   gap: 30px;
 }
 
-.social-links > a {
+.social-links>a {
   color: #ffffff;
   transition: all 0.4s ease-in-out;
   background-color: #ff6347;
@@ -192,12 +192,12 @@ footer {
   text-decoration: none;
 }
 
-.social-links > a:hover {
+.social-links>a:hover {
   text-decoration: underline;
   background-color: #ffffff;
   color: #ff6347;
 }
 
-.social-links > a > i {
+.social-links>a>i {
   font-size: 2em;
 }
