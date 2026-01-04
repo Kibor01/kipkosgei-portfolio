@@ -209,6 +209,30 @@ button {
   margin-bottom: 5px;
 }
 
+.craft {
+  border-radius: 15px/50px;
+  background-color: #ff6347;
+  padding: 20px;
+  width: 250px;
+  height: 250px;
+}
+
+.interface {
+  border-radius: 15px/50px;
+  background-color: #ff6347;
+  padding: 20px;
+  width: 250px;
+  height: 250px;
+}
+
+.unrivalled {
+  border-radius: 15px/50px;
+  background-color: #ff6347;
+  padding: 20px;
+  width: 250px;
+  height: 250px;
+}
+
 /*schooling background styles*/
 .riley-container {
   display: grid;
@@ -220,7 +244,6 @@ button {
   width: 320px;
   height: 550px;
   border: 5px solid #fff;
-  box-sizing: border-box;
 }
 
 .riley-container {
