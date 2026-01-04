@@ -217,18 +217,35 @@ button {
 }
 
 .rosa img {
-  width: 300px;
-  height: 300px;
+  width: 320px;
+  height: 550px;
   border: 5px solid #fff;
+  box-sizing: border-box;
 }
 
 .riley-container {
   margin-bottom: 5px;
 }
 
+.future  {
+  width: fit-content;
+  padding: 20px;
+  margin: 10px;
+  border: 5px solid #ffffff;
+  box-sizing: border-box;
+}
+
+.reference {
+  width: fit-content;
+  padding: 20px;
+  margin: 10px;
+  border: 5px solid #ffffff;
+  box-sizing: border-box;
+}
+
 .environment img {
   width: 1000px;
-  height: 400px;
+  height: 300px;
   border: 5px solid#ffffff;
 }
 
