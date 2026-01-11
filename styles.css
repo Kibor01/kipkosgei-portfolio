@@ -203,6 +203,7 @@ button {
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
   box-sizing: border-box;
+  padding: 10px;
 }
 
 .precision-container h3 {
@@ -272,6 +273,24 @@ button {
   width: 1200px;
   height: 300px;
   border: 5px solid#ffffff;
+}
+
+/*quality section styles*/
+.assignment-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+.sharma img {
+  width: 500px;
+  height: 300px;
+}
+
+.sharma {
+  box-sizing: border-box;
+  border: 5px solid #ffffff;
+  margin: 15px;
+  padding: 15px;
 }
 
 /*Footer Styles*/
