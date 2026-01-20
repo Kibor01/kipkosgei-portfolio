@@ -159,7 +159,7 @@ button {
   gap: 20px;
 }
 
-.project-details h3 {
+.project-details h3 { o
   margin-bottom: 5px;
 }
 
@@ -167,6 +167,143 @@ button {
   display: flex;
   align-items: center;
   gap: 40px;
+}
+
+/*Tools-skills section*/
+
+.tools-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.skills-image img {
+  width: 300px;
+  height: 300px;
+  border: 5px solid #fff;
+}
+
+.tools-container h3 {
+  margin-bottom: 5px;
+}
+
+/*precision styles*/
+.precision-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.precision-container h3 {
+  margin-bottom: 5px;
+}
+
+.craft {
+  border-radius: 15px/50px;
+  background-color: #ff6347;
+  padding: 20px;
+  width: 250px;
+  height: 250px;
+}
+
+
+
+.interface {
+  border-radius: 15px/50px;
+  background-color: #ff6347;
+  padding: 20px;
+  width: 250px;
+  height: 250px;
+}
+
+.unrivalled {
+  border-radius: 15px/50px;
+  background-color: #ff6347;
+  padding: 20px;
+  width: 250px;
+  height: 250px;
+}
+
+/*schooling background styles*/
+.riley-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.rosa img {
+  width: 320px;
+  height: 550px;
+  border: 5px solid #fff;
+}
+
+.riley-container {
+  margin-bottom: 5px;
+}
+
+.future  {
+  width: fit-content;
+  padding: 20px;
+  margin: 10px;
+  border: 5px solid #ffffff;
+  box-sizing: border-box;
+}
+
+.reference {
+  width: fit-content;
+  padding: 20px;
+  margin: 10px;
+  border: 5px solid #ffffff;
+  box-sizing: border-box;
+}
+
+.environment img {
+  width: 1200px;
+  height: 300px;
+  border: 5px solid#ffffff;
+}
+
+/*quality section styles*/
+.assignment-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+.sharma img {
+  width: 500px;
+  height: 300px;
+}
+
+.sharma {
+  box-sizing: border-box;
+  border: 5px solid #ffffff;
+  margin: 15px;
+  padding: 15px;
+}
+
+/*button styles*/
+.button {
+  background-color: #ffffff;
+  border: #ffffff;
+  color: #ff6347;
+  padding: 10px 25px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 6px 3px;
+  cursor: pointer;
+}
+
+.button {
+  border: 2px solid #ff6347;
+  gap: 40px;
+}
+
+.button:hover {
+   background-color: #ff6347;
+   color: #ffffff;
 }
 
 /*Footer Styles*/
