@@ -265,7 +265,7 @@ button {
   border: 5px solid#ffffff;
 }
 
-/*quality section styles*/
+/*call to action section styles*/
 .assignment-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
