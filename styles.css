@@ -94,13 +94,13 @@ button {
   padding: 10px;
 }
 
-.cta-button a {
+.cta-buttons a {
   background-color: #ffffff;
   color: #ff6347;
   padding: 10px;
 }
 
-.cta-button > a:hover {
+.cta-buttons > a:hover {
   background-color: #ff6347;
   color: #fff;
 }
