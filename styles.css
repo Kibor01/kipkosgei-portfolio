@@ -159,7 +159,7 @@ button {
   gap: 20px;
 }
 
-.project-details h3 { o
+.project-details h3 {
   margin-bottom: 5px;
 }
 
@@ -208,8 +208,6 @@ button {
   height: 250px;
 }
 
-
-
 .interface {
   border-radius: 15px/50px;
   background-color: #ff6347;
@@ -243,7 +241,7 @@ button {
   margin-bottom: 5px;
 }
 
-.future  {
+.future {
   width: fit-content;
   padding: 20px;
   margin: 10px;
@@ -302,8 +300,8 @@ button {
 }
 
 .button:hover {
-   background-color: #ff6347;
-   color: #ffffff;
+  background-color: #ff6347;
+  color: #ffffff;
 }
 
 /*Footer Styles*/
