@@ -263,24 +263,6 @@ button {
   border: 5px solid#ffffff;
 }
 
-/*call to action section styles*/
-.assignment-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 40px;
-}
-.sharma img {
-  width: 500px;
-  height: 300px;
-}
-
-.sharma {
-  box-sizing: border-box;
-  border: 5px solid #ffffff;
-  margin: 15px;
-  padding: 15px;
-}
-
 /*button styles*/
 .button {
   background-color: #ffffff;
@@ -299,9 +281,27 @@ button {
   gap: 40px;
 }
 
-.button:hover {
-  background-color: #ff6347;
-  color: #ffffff;
+/*call to action section styles*/
+.assignment-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+.sharma img {
+  width: 500px;
+  height: 300px;
+}
+
+.sharma {
+  box-sizing: border-box;
+  border: 5px solid #ffffff;
+  margin: 15px;
+  padding: 15px;
+}
+
+.assignment-container form {
+  width: 100px;
+  margin-bottom: 10px;
 }
 
 /*Footer Styles*/
