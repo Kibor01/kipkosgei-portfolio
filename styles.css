@@ -94,21 +94,7 @@ button {
   padding: 10px;
 }
 
-.cta-buttons a {
-  background-color: #ffffff;
-  color: #ff6347;
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  gap: 50px;
-}
-
-.cta-buttons > a:hover {
-  background-color: #ff6347;
-  color: #fff;
-}
-
-.cta-buttons {
+.introduction-left cta-buttons {
   scroll-behavior: smooth;
 }
 
