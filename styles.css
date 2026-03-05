@@ -178,7 +178,6 @@ button {
 .tools-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 40px;
 }
 
 .skills-image img {
@@ -206,24 +205,30 @@ button {
 
 .craft {
   border-radius: 15px/50px;
-  background-color: #ff6347;
-  padding: 20px;
+  background-color: #000000;
+  border: 5px solid #ffffff;
+  padding: 30px;
+  margin: 30px;
   width: 250px;
   height: 250px;
 }
 
 .interface {
   border-radius: 15px/50px;
-  background-color: #ff6347;
-  padding: 20px;
+  background-color: #000000;
+  border: 5px solid #ffffff;
+  padding: 30px;
+  margin: 30px;
   width: 250px;
   height: 250px;
 }
 
 .unrivalled {
   border-radius: 15px/50px;
-  background-color: #ff6347;
-  padding: 20px;
+  background-color: #000000;
+  border: 5px solid #ffffff;
+  padding: 30px;
+  margin: 30px;
   width: 250px;
   height: 250px;
 }
