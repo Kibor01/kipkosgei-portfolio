@@ -338,15 +338,59 @@ footer {
   }
 }
 
+@media (max-width: 820px) {
+  .introduction {
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+
+  .introduction-left h2,
+  .introduction-left p {
+    text-align: justify;
+  }
+
+  .cta-buttons {
+    align-self: center;
+  }
+}
+
 @media (max-width: 768px) {
+  /* Header responsive styles */
+  .header {
+    gap: 50px;
+  }
+
+  /* My services section responsive */
   .service-box {
     padding: 10px;
     border-width: 3px;
   }
 }
 
+@media (max-width: 652px) {
+  /* Header responsive styles */
+  .main-navigation > ul > li {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+
+  /* Introduction section responsive */
+  .cta-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 @media (max-width: 590px) {
   .services-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 462px) {
+  .cta-buttons {
     grid-template-columns: repeat(1, 1fr);
   }
 }
