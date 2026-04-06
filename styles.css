@@ -202,6 +202,11 @@ video {
   margin-bottom: 5px;
 }
 
+.skill-techniques {
+  margin: 10px;
+  padding: 10px;
+}
+
 /*precision styles*/
 .precision-container {
   display: grid;
