@@ -450,9 +450,23 @@ footer {
 }
 
 @media (max-width: 820px) {
-  /*my Skills and tools*/
+  /*my Skills and tools responsive*/
   .tools-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
+}
+
+@media (max-width: 1250px) {
+  /*precision-container responsive*/
+  .precision-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 820px) {
+  .precision-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
 }
