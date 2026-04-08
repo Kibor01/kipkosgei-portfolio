@@ -202,7 +202,22 @@ video {
   margin-bottom: 5px;
 }
 
+.skills {
+  margin: 10px;
+  padding: 10px;
+}
+
+.skills-image {
+  margin: 10px;
+  padding: 10px;
+}
+
 .skill-techniques {
+  margin: 10px;
+  padding: 10px;
+}
+
+.skill-journey {
   margin: 10px;
   padding: 10px;
 }
@@ -252,40 +267,34 @@ video {
 
 /*schooling background styles*/
 .riley-container {
+  margin-bottom: 5px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 40px;
-}
-
-.rosa img {
-  width: 320px;
-  height: 750px;
-}
-
-.riley-container {
-  margin-bottom: 5px;
 }
 
 .future {
-  width: fit-content;
-  padding: 20px;
-  margin: 10px;
-  border: 5px solid #ffffff;
   box-sizing: border-box;
+  border: 1px solid #ffffff;
+  margin: 8px;
+}
+
+.rosa img {
+  width: 370px;
+  height: 420px;
+  border: 2px solid #ffffff;
+  margin: 8px;
 }
 
 .reference {
-  width: fit-content;
-  padding: 20px;
-  margin: 10px;
-  border: 5px solid #ffffff;
+  border: 2px solid #ffffff;
   box-sizing: border-box;
+  margin: 8px;
 }
 
 .environment img {
   width: 1200px;
   height: 300px;
-  border: 5px solid#ffffff;
+  border: 2px solid#ffffff;
 }
 
 /*call to action section styles*/
@@ -469,4 +478,20 @@ footer {
   .precision-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 1100px) {
+  /*schooling section responsive*/
+  .riley-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 820px) {
+  .riley-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
