@@ -274,19 +274,20 @@ video {
 
 .future {
   box-sizing: border-box;
-  border: 2px solid #ffffff;
+  border: 5px solid #ffffff;
   margin: 8px;
 }
 
 .rosa img {
   width: 370px;
   height: 420px;
-  border: 2px solid #ffffff;
   margin: 8px;
+  border: 5px solid #ffffff;
+  box-sizing: border-box;
 }
 
 .reference {
-  border: 2px solid #ffffff;
+  border: 5px solid #ffffff;
   box-sizing: border-box;
   margin: 8px;
 }
@@ -294,7 +295,8 @@ video {
 .environment img {
   width: 1200px;
   height: 300px;
-  border: 2px solid#ffffff;
+  border: 5px solid#ffffff;
+  box-sizing: border-box;
 }
 
 /*call to action section styles*/
