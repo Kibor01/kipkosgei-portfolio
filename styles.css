@@ -359,9 +359,28 @@ footer {
 }
 
 /*Responsive breakpoints*/
+@media (max-width: 1250px) {
+  /*precision-container responsive*/
+  .precision-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 1100px) {
+  /*schooling section responsive*/
+  .riley-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 @media (max-width: 991px) {
   .services-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  /*call to action section responsive*/
+  .assignment-container {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
@@ -379,6 +398,19 @@ footer {
   .cta-buttons {
     align-self: center;
   }
+
+  /*my Skills and tools responsive*/
+  .tools-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .precision-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .riley-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 @media (max-width: 768px) {
@@ -391,6 +423,10 @@ footer {
   .service-box {
     padding: 10px;
     border-width: 3px;
+  }
+
+  .project-grid {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
@@ -420,35 +456,6 @@ footer {
   .cta-buttons {
     grid-template-columns: repeat(1, 1fr);
   }
-}
-
-@media (max-width: 820px) {
-  /*Recent projects responsive */
-  .projects-container {
-    flex-direction: column;
-  }
-}
-
-@media (max-width: 820px) {
-  /*project-grid display and video autoplay*/
-  .project-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 768px) {
-  .project-grid {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
-
-@media (max-width: 520px) {
-  .project-grid {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-  }
 
   .project-details h3,
   .project-details p {
@@ -457,51 +464,5 @@ footer {
 
   .project-links {
     align-self: center;
-  }
-}
-
-@media (max-width: 820px) {
-  /*my Skills and tools responsive*/
-  .tools-container {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
-
-@media (max-width: 1250px) {
-  /*precision-container responsive*/
-  .precision-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 820px) {
-  .precision-container {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
-
-@media (max-width: 1100px) {
-  /*schooling section responsive*/
-  .riley-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 820px) {
-  .riley-container {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
-
-@media (max-width: 991px) {
-  /*call to action section responsive*/
-  .assignment-container {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
   }
 }
