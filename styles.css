@@ -231,6 +231,10 @@ video {
   padding: 10px;
 }
 
+.precision h2 {
+  text-align: center;
+}
+
 .precision-container h3 {
   margin-bottom: 5px;
 }
@@ -394,7 +398,7 @@ footer {
   /*recent projects responsive*/
   .project-grid {
     grid-template-columns: repeat(1, 1fr);
-    gap: 100px;
+    gap: 20px;
   }
 }
 
@@ -404,7 +408,10 @@ footer {
     flex-direction: column-reverse;
   }
 
-  .introduction-left h2,
+  .introduction-left h2 {
+    text-align: center;
+  }
+
   .introduction-left p {
     text-align: justify;
   }
