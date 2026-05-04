@@ -1,8 +1,11 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css" />
     <script
       src="https://kit.fontawesome.com/0494bf5985.js"
       crossorigin="anonymous"
@@ -48,20 +51,23 @@
             development is more than a career for me, it's a craft I’m genuinely
             passionate about.
           </p>
-          <div class="cta-button">
-            <a href="#">Learn More...</a>
+          <div class="cta-buttons">
+            <a href="#services">Learn More...</a>
+            <a href="#projects">My Work...</a>
+            <a href="#skills">My Skills & Tools...</a>
+            <a href="#started">Let's Work...</a>
           </div>
         </div>
         <div class="introduction-right">
-          <img src="kipkosgei.jpg" alt="Dominic" />
+          <img src="/assets/kipkosgei.jpg" alt="Dominic" class="intro-image" />
           <h5>Dominic Kipkosgei Bor || Web Developer</h5>
         </div>
       </div>
-      <div class="my-services home-section">
+      <div id="services" class="my-services home-section">
         <h2>My Services</h2>
         <div class="services-grid">
           <div class="service-box web-design">
-            <img src="computer.jpg" alt="computer" />
+            <img src="/assets/computer.jpg" alt="computer" />
             <h4>Web Design</h4>
             <p>
               Create responsive and aesthetic layouts using HTML and CSS.
@@ -76,7 +82,7 @@
             </p>
           </div>
           <div class="service-box front-end">
-            <img src="sunglasses.jpg" alt="specs" />
+            <img src="/assets/sunglasses.jpg" alt="specs" />
             <h4>Front End Development</h4>
             <p>
               UI/UX Implementation Convert design mockups (from tools like
@@ -95,7 +101,7 @@
             </p>
           </div>
           <div class="service-box react">
-            <img src="laptop.avif" alt="laptop" />
+            <img src="/assets/laptop.avif" alt="laptop" />
             <h4>Web Design (React)</h4>
             <p>
               Responsive Design with Conditional Rendering React allows UI
@@ -114,17 +120,29 @@
           </div>
         </div>
       </div>
-      <div class="recent-projects home-section">
+      <div id="projects" class="recent-projects home-section">
         <h2>Recent Projects</h2>
         <div class="projects-container">
           <div class="project-grid">
-            <div class="video-clip">
+            <div class="video-clip-container">
               <iframe
-                width="400"
+                class="video-clip"
                 height="250"
-                src="https://www.youtube.com/embed/watch?v=OXGznpKZ_sA&utm_source=chatgpt.com"
-              >
-              </iframe>
+                src="https://www.youtube.com/embed/Tef1e9FiSR0?si=tiuRLBrYZZGQIuxm"
+                title="YouTube video player"
+                frameborder="0"
+                allow="
+                  accelerometer;
+                  autoplay;
+                  clipboard-write;
+                  encrypted-media;
+                  gyroscope;
+                  picture-in-picture;
+                  web-share;
+                "
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
             </div>
             <div class="project-details">
               <h3>KiBor Website</h3>
@@ -137,23 +155,42 @@
                 pages.
               </p>
               <div class="project-links">
-                <a href="https://github.com/Kibor01" target="_blank"
+                <a
+                  class="project-link"
+                  href="https://github.com/Kibor01"
+                  target="_blank"
                   >View Repository</a
                 >
-                <a href="https://raasissoftware.com/" target="_blank"
+                <a
+                  class="project-link"
+                  href="https://www.youtube.com/embed/Tef1e9FiSR0?si=tiuRLBrYZZGQIuxm"
+                  title="YouTube video player"
+                  target="_blank"
                   >View Live Demo</a
                 >
               </div>
             </div>
           </div>
           <div class="project-grid">
-            <div class="video-clip">
+            <div class="video-clip-container">
               <iframe
-                width="400"
+                class="video-clip"
                 height="250"
-                src="https://www.youtube.com/embed/watch?v=OXGznpKZ_sA&utm_source=chatgpt.com"
-              >
-              </iframe>
+                src="https://www.youtube.com/embed/CNsvts6pVzo?si=UrRba_hFosj2Xy2V"
+                title="YouTube video player"
+                frameborder="0"
+                allow="
+                  accelerometer;
+                  autoplay;
+                  clipboard-write;
+                  encrypted-media;
+                  gyroscope;
+                  picture-in-picture;
+                  web-share;
+                "
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
             </div>
             <div class="project-details">
               <h3>Team Collaboration On Multi-page Website Development</h3>
@@ -168,23 +205,42 @@
                 functional website.
               </p>
               <div class="project-links">
-                <a href="https://github.com/Kibor01" target="_blank"
+                <a
+                  class="project-link"
+                  href="https://github.com/Kibor01"
+                  target="_blank"
                   >View Repository</a
                 >
-                <a href="https://raasissoftware.com/" target="_blank"
+                <a
+                  class="project-link"
+                  href="https://www.youtube.com/embed/CNsvts6pVzo?si=UrRba_hFosj2Xy2V"
+                  title="YouTube video player"
+                  target="_blank"
                   >View Live Demo</a
                 >
               </div>
             </div>
           </div>
           <div class="project-grid">
-            <div class="video-clip">
+            <div class="video-clip-container">
               <iframe
-                width="400"
+                class="video-clip"
                 height="250"
-                src="https://www.youtube.com/embed/watch?v=OXGznpKZ_sA&utm_source=chatgpt.com"
-              >
-              </iframe>
+                src="https://www.youtube.com/embed/CQZxeoQeo5c?si=3axSrCZ8CUu9QKW0"
+                title="YouTube video player"
+                frameborder="0"
+                allow="
+                  accelerometer;
+                  autoplay;
+                  clipboard-write;
+                  encrypted-media;
+                  gyroscope;
+                  picture-in-picture;
+                  web-share;
+                "
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
             </div>
             <div class="project-details">
               <h3>Front-End Styling and UX Improvement in Group Projects</h3>
@@ -200,11 +256,16 @@
               </p>
               <div class="project-links">
                 <a
-                  href="https://github.com/Kibor01/kipkosgei-portfolio"
+                  class="project-link"
+                  href="https://github.com/Kibor01"
                   target="_blank"
                   >View Repository</a
                 >
-                <a href="https://raasissoftware.com/" target="_blank"
+                <a
+                  class="project-link"
+                  href="https://www.youtube.com/embed/CQZxeoQeo5c?si=3axSrCZ8CUu9QKW0"
+                  title="YouTube video player"
+                  target="_blank"
                   >View Live Demo</a
                 >
               </div>
@@ -212,7 +273,7 @@
           </div>
         </div>
       </div>
-      <div class="tool-skills home-section">
+      <div id="skills" class="tool-skills home-section">
         <h2>My Skills & Tools</h2>
         <div class="tools-container">
           <div class="skills">
@@ -224,7 +285,7 @@
               best practices to build clean and maintainable interfaces.
             </p>
             <div class="skills-image">
-              <img src="front-end.jpg" alt="front-end" />
+              <img src="/assets/front-end.jpg" alt="front-end" />
             </div>
           </div>
           <div class="skills-image">
@@ -237,7 +298,7 @@
               logic to improve user experience.
             </p>
             <div class="skills-image">
-              <img src="unsplash.jpg" alt="skeleton" />
+              <img src="/assets/unsplash.jpg" alt="skeleton" />
             </div>
           </div>
           <div class="skill-techniques">
@@ -252,7 +313,7 @@
               and mobile devices.
             </p>
             <div class="skills-image">
-              <img src="skeleton2.jpg" alt="folder" />
+              <img src="/assets/skeleton2.jpg" alt="folder" />
               <p>
                 You can explore my GitHub
                 <button>
@@ -291,110 +352,109 @@
               to detail, and commitment to delivering high-quality, functional
               web solutions.
             </p>
-            <img src="technology.jpg" alt="tech-icons" />
+            <img src="/assets/technology.jpg" alt="tech-icons" />
           </div>
         </div>
       </div>
-      <div class="precision home-section">
+      <div id="craft" class="precision home-section">
         <h2>Front-End Development Skills & Tools</h2>
         <div class="precision-container">
           <div class="craft">
             <h3>HTML5 – Semantic Structure & Accessibility</h3>
             <p>
-              I use HTML5 to develop well-structured, semantic web pages that 
-              enhance accessibility, usability, and search engine optimization. 
-              My approach ensures clean code and consistent performance across modern 
-              browsers.
+              I use HTML5 to develop well-structured, semantic web pages that
+              enhance accessibility, usability, and search engine optimization.
+              My approach ensures clean code and consistent performance across
+              modern browsers.
             </p>
           </div>
           <div class="interface">
             <h3>CSS3 – Responsive Layouts & Visual Design</h3>
             <p>
-              I apply CSS3 to create responsive and visually engaging interfaces using Flexbox, 
-              Grid, and media queries. I focus on maintaining design consistency while ensuring 
-              websites adapt seamlessly across different screen sizes and devices.
+              I apply CSS3 to create responsive and visually engaging interfaces
+              using Flexbox, Grid, and media queries. I focus on maintaining
+              design consistency while ensuring websites adapt seamlessly across
+              different screen sizes and devices.
             </p>
           </div>
           <div class="unrivalled">
             <h3>Git & GitHub – Version Control & Team Collaboration</h3>
             <p>
-              I use Git and GitHub to manage code versions, track changes, and collaborate 
-              efficiently with development teams. This allows for organized workflows, reliable 
-              code management, and smooth project deployment.
+              I use Git and GitHub to manage code versions, track changes, and
+              collaborate efficiently with development teams. This allows for
+              organized workflows, reliable code management, and smooth project
+              deployment.
             </p>
           </div>
         </div>
       </div>
-      <div class="schooling home-section">
-        <h2>Front-End Development Tools & Skills</h2>
-        <div class="riley-container">
-          <div class="future">
-            <h4>Tools & Skills Applied</h4>
+      <div class="experience home-section">
+        <h2>Briefly A bout My Experience</h2>
+        <div class="experiences-container">
+          <div class="experience-box">
+            <h4>Take a Look at My Work</h4>
             <p>
               I use modern front-end tools and technologies to build responsive,
-              user-friendly, and visually appealing websites. My core skills include
-              HTML5 for structuring clean and accessible web pages, CSS3 for styling 
-              layouts, animations, and responsive designs, and JavaScript for adding 
-              interactivity and dynamic functionality. I focus on writing clean, 
-              maintainable code that enhances performance and user experience.Check-out My
-              <a href="education.html">education</a> background.
+              user-friendly, and visually appealing websites. My core skills
+              include HTML5 for structuring clean and accessible web pages, CSS3
+              for styling layouts, animations, and responsive designs, and
+              JavaScript for adding interactivity and dynamic functionality. I
+              focus on writing clean, maintainable code that enhances
+              performance and user experience. Check my github to see my
+              projects.
             </p>
+            <button>
+              <a href="https://github.com/Kibor01">View Github</a>
+            </button>
           </div>
-          <div class="rosa">
-            <img src="php.jpg" alt="girl" />
+          <div class="experience-box">
+            <img
+              src="/assets/laptop.avif"
+              class="experience-image"
+              alt="laptop"
+            />
           </div>
-          <div class="reference">
-            <h4>Tools & Skills Applied</h4>
+          <div class="experience-box">
+            <h4>Discover My Work & Let's Create Something Great</h4>
             <p>
-              To improve design consistency and efficiency, I work with CSS frameworks 
-              and libraries such as Bootstrap or custom CSS layouts using Flexbox and Grid. 
-              I use Git and GitHub for version control, collaboration, and project management,
-              ensuring smooth teamwork and code tracking. For development and testing, 
-              I rely on tools like Visual Studio Code, browser developer tools, 
-              and responsive testing techniques to ensure compatibility across different 
-              devices and browsers.
-              I also apply UI/UX principles to create intuitive navigation,
-              engaging interfaces, and user-centered designs. Through continuous learning
-              and hands-on projects, I refine my skills to deliver modern, interactive, 
-              and professional front-end solutions that meet both client and user needs.Check-out my
-              <a href="portfolio.html">Portfolio</a> and feel free to interract
-              with me.
+              Through continuous learning and hands-on projects, I refine my
+              skills to deliver modern, interactive, and professional front-end
+              solutions that meet both client and user needs.Committed to
+              finding a better way and to add value to your website. Visit my
+              portfolio to check my recent projects.
             </p>
+            <button>
+              <a href="portfolio.html">View Portfolio</a>
+            </button>
           </div>
-        </div>
-        <div class="environment">
-          <img src="valley.jpg" alt="vegetation" />
         </div>
       </div>
-      <div class="quality home-section">
-        <h2>Front-End Developer</h2>
+      <div id="started" class="call-action home-section">
+        <h1>Let's Get Started</h1>
         <div class="assignment-container">
           <div class="sharma">
-            <img src="sharma.avif" alt="desktop" />
+            <img src="/assets/sharma.avif" alt="desktop" />
           </div>
           <div class="Phylosophy">
-            <h4>Tools & Skills Applied</h4>
+            <h2>Let's Create Something Amazing</h2>
             <p>
-              I approach every assignment with a structured, detail-oriented
-              mindset, ensuring each project is delivered on time and aligned
-              with the client’s goals. By applying my front-end development
-              skills, I help clients transform ideas into visually attractive,
-              responsive, and user-friendly websites. I focus on clean design,
-              intuitive navigation, and interactive features that enhance user
-              engagement, creating digital experiences that not only look good
-              but also perform smoothly across devices.I approach my daily
-              assignments with consistency and focus, applying my front-end
-              development skills to translate designs and ideas into clean,
-              responsive, and interactive web interfaces. I prioritize writing
-              well-structured HTML, styling with modern CSS, and enhancing
-              functionality with JavaScript to ensure usability and performance.
-              Each task is an opportunity to refine details, solve problems, and
-              deliver user-friendly experiences that meet both technical and
-              visual standards.
+              Contact me for your next project and turn your ideas to modern
+              website, view my projects and start your website today.
             </p>
-            <div class="learn-more">
-              <a href="portfolio.html"><button class="button button">Learn More</button></a>
-              <a href="https://github.com/Kibor01"><div class="button button">Learn More</div></a>
+            <div class="form">
+              <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" />
+                <label for="email">Email</label>
+                <input type="text" id="email" />
+                <label for="message">Your message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="what do you need help with?"
+                ></textarea>
+              </form>
+            </div>
           </div>
         </div>
       </div>
