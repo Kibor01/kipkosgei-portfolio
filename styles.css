@@ -166,6 +166,11 @@ video {
 .project-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 30px;
+}
+
+.video-clip {
+  width: 400px;
 }
 
 .project-details {
@@ -176,8 +181,19 @@ video {
 .project-links {
   display: flex;
   align-items: center;
-  padding: 20px;
-  margin: 10px;
+  margin: 10px 0;
+  gap: 20px;
+}
+
+.project-link {
+  background-color: #fff;
+  color: #ff6347;
+  padding: 15px;
+}
+
+.project-link:hover {
+  background-color: #ff6347;
+  color: #fff;
 }
 
 /*styling cta-buttons*/
@@ -451,9 +467,27 @@ footer {
   }
 }
 
+@media (max-width: 520px) {
+  /*introduction section responsive*/
+  .cta-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 @media (max-width: 462px) {
+  /*introduction section responsive*/
   .cta-buttons {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  /*recent projects section responsive*/
+  .projects-container {
+    padding: 15px;
+  }
+
+  .video-clip {
+    width: 300px;
   }
 
   .project-details h3,
