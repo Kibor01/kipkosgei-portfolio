@@ -336,6 +336,8 @@ footer {
 .social-links {
   display: flex;
   gap: 30px;
+  justify-content: center;
+  align-items: center;
 }
 
 .social-links > a {
