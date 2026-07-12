@@ -33,6 +33,7 @@ a:hover {
 
 a,
 button {
+  cursor: pointer;
   transition: all 400ms ease-in-out;
 }
 
@@ -305,28 +306,62 @@ video {
 }
 
 /*call to action section styles*/
-.assignment-container {
+.callaction-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 40px;
+  gap: 10;
 }
 
-.sharma img {
-  width: 500px;
-  height: 300px;
+.call-action-img {
+  border: 3px solid #fff;
+  padding: 20px;
 }
 
-.sharma {
-  box-sizing: border-box;
-  border: 5px solid #ffffff;
-  margin: 15px;
-  padding: 15px;
+.callaction-box {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
 }
 
-.assignment-container form {
-  width: 100px;
+.cta-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/*Style input fields*/
+.cta-form input {
+  width: 100%;
+  padding: 10px;
   margin-bottom: 10px;
 }
+
+/*style label fields*/
+.cta-form label {
+  font-weight: 600;
+  color: #ff6347;
+}
+
+/*style textarea fields*/
+.cta-form textarea {
+  width: 100%;
+  resize: none;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.submit-button {
+  width: 100%;
+  background-color: #ff6347;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.submit-button:hover {
+  background-color: #ffffff;
+  color: #ff6347;
+}
+
+
 
 /*Footer Styles*/
 footer {
@@ -342,7 +377,9 @@ footer {
 
 .social-links {
   display: flex;
-  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
 }
 
 .social-links > a {
@@ -378,14 +415,17 @@ footer {
   }
 }
 
+@media (max-width: 1050px) {
+  /*call to action section responsive*/
+  .callaction-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
 @media (max-width: 991px) {
   .services-grid {
     grid-template-columns: repeat(2, 1fr);
-  }
-
-  /*call to action section responsive*/
-  .assignment-container {
-    grid-template-columns: repeat(1, 1fr);
   }
 }
 
