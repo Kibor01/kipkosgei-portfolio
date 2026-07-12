@@ -433,7 +433,7 @@
       <div id="started" class="call-action home-section">
         <h1>Let's Get Started</h1>
         <div class="callaction-container">
-          <div class="call-action">
+          <div class="call-action-img">
             <img src="/assets/callaction.avif" alt="desktop" />
           </div>
           <div class="callaction-box">
@@ -442,20 +442,20 @@
               Contact me for your next project and turn your ideas to modern
               website, view my projects and start your website today.
             </p>
-            <form>
+            <form class="cta-form">
               <label for="fname">First name:</label>
               <input type="text" id="fname" name="fname" />
               <label for="lname">Last name:</label>
               <input type="text" id="lname" name="lname" />
               <label for="email">Email</label>
-              <input type="text" id="email" />
+              <input type="email" id="email" name="email" />
               <label for="message">Your message</label>
               <textarea
-                ="message"
+                id="message"
                 name="message"
                 placeholder="what do you need help with?"
               ></textarea>
-              <input type="submit" value="submit" />
+              <button class="submit-button" type="submit">Submit here</button>
             </form>
           </div>
         </div>

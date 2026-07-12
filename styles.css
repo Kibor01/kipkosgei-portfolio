@@ -33,6 +33,7 @@ a:hover {
 
 a,
 button {
+  cursor: pointer;
   transition: all 400ms ease-in-out;
 }
 
@@ -306,44 +307,61 @@ video {
 
 /*call to action section styles*/
 .callaction-container {
-  display: flex;
+  display: grid;
   grid-template-columns: repeat(2, 1fr);
+  gap: 10;
 }
 
-.call-action img {
-  width: 900px;
-  height: 490px;
+.call-action-img {
   border: 3px solid #fff;
   padding: 20px;
-  margin: 20px;
 }
 
 .callaction-box {
+  display: flex;
+  flex-direction: column;
   padding: 20px;
-  margin: 20px;
+}
+
+.cta-form {
+  display: flex;
+  flex-direction: column;
 }
 
 /*Style input fields*/
-input {
+.cta-form input {
   width: 100%;
   padding: 10px;
-  margin: 10px;
+  margin-bottom: 10px;
 }
 
 /*style label fields*/
-label {
-  width: 100%;
-  padding: 10px;
-  margin: 10px;
+.cta-form label {
+  font-weight: 600;
+  color: #ff6347;
 }
 
 /*style textarea fields*/
-textarea {
+.cta-form textarea {
   width: 100%;
   resize: none;
   padding: 10px;
-  margin: 10px;
+  margin-bottom: 20px;
 }
+
+.submit-button {
+  width: 100%;
+  background-color: #ff6347;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.submit-button:hover {
+  background-color: #ffffff;
+  color: #ff6347;
+}
+
+
 
 /*Footer Styles*/
 footer {
