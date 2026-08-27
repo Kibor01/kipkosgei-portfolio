@@ -114,6 +114,7 @@ video {
 
 .cta-buttons a {
   background-color: #ff6347;
+  color: #fff;
   padding: 10px;
   margin: 5px;
 }
@@ -243,7 +244,7 @@ video {
 .precision-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 40px;
+  gap: 30px;
   box-sizing: border-box;
   padding: 10px;
 }
@@ -262,8 +263,8 @@ video {
   border: 5px solid #ffffff;
   padding: 30px;
   margin: 30px;
-  width: 350px;
-  height: 350px;
+  width: 320px;
+  height: 400px;
 }
 
 .interface {
@@ -272,8 +273,8 @@ video {
   border: 5px solid #ffffff;
   padding: 30px;
   margin: 30px;
-  width: 350px;
-  height: 350px;
+  width: 320px;
+  height: 400px;
 }
 
 .unrivalled {
@@ -282,8 +283,8 @@ video {
   border: 5px solid #ffffff;
   padding: 30px;
   margin: 30px;
-  width: 350px;
-  height: 350px;
+  width: 320px;
+  height: 400px;
 }
 
 /*experiences section styles*/
@@ -360,8 +361,6 @@ video {
   background-color: #ffffff;
   color: #ff6347;
 }
-
-
 
 /*Footer Styles*/
 footer {
