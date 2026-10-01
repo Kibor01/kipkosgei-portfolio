@@ -65,16 +65,16 @@ video {
   font-size: 55px;
 }
 
-.main-navigation > ul > li {
+.main-navigation>ul>li {
   display: inline-flex;
   margin-right: 30px;
 }
 
-.main-navigation > ul > li > a {
+.main-navigation>ul>li>a {
   color: #ffffff;
 }
 
-.main-navigation > ul > li > a:hover {
+.main-navigation>ul>li>a:hover {
   color: #ff6347;
 }
 
@@ -136,8 +136,38 @@ video {
 
 .intro-image {
   width: 350px;
-  height: 550px;
+  height: 450px;
   border: 5px solid #fff;
+}
+
+/*creativity section*/
+
+.innovation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+.innovation {
+  width: 250px;
+  height: 200px;
+}
+
+.contribution {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.digi-creativity {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 10px;
+  padding: 10px;
 }
 
 /*my-services section*/
@@ -381,7 +411,7 @@ footer {
   gap: 50px;
 }
 
-.social-links > a {
+.social-links>a {
   color: #ffffff;
   transition: all 0.4s ease-in-out;
   background-color: #ff6347;
@@ -389,18 +419,19 @@ footer {
   text-decoration: none;
 }
 
-.social-links > a:hover {
+.social-links>a:hover {
   text-decoration: underline;
   background-color: #ffffff;
   color: #ff6347;
 }
 
-.social-links > a > i {
+.social-links>a>i {
   font-size: 2em;
 }
 
 /*Responsive breakpoints*/
 @media (max-width: 1250px) {
+
   /*precision-container responsive*/
   .precision-container {
     grid-template-columns: repeat(2, 1fr);
@@ -408,6 +439,7 @@ footer {
 }
 
 @media (max-width: 1100px) {
+
   /*experiences section responsive*/
   .experiences-container {
     grid-template-columns: repeat(2, 1fr);
@@ -415,6 +447,7 @@ footer {
 }
 
 @media (max-width: 1050px) {
+
   /*call to action section responsive*/
   .callaction-container {
     display: grid;
@@ -429,6 +462,7 @@ footer {
 }
 
 @media (max-width: 917px) and (min-width: 821px) {
+
   /*introduction section responsive*/
   .cta-buttons {
     display: grid;
@@ -437,6 +471,7 @@ footer {
 }
 
 @media (max-width: 916px) {
+
   /*recent projects responsive*/
   .project-grid {
     grid-template-columns: repeat(1, 1fr);
@@ -478,6 +513,7 @@ footer {
 }
 
 @media (max-width: 768px) {
+
   /* Header responsive styles */
   .header {
     gap: 50px;
@@ -491,8 +527,9 @@ footer {
 }
 
 @media (max-width: 652px) {
+
   /* Header responsive styles */
-  .main-navigation > ul > li {
+  .main-navigation>ul>li {
     display: flex;
     flex-direction: column;
     margin-right: 0;
@@ -507,6 +544,7 @@ footer {
 }
 
 @media (max-width: 520px) {
+
   /*introduction section responsive*/
   .cta-buttons {
     display: grid;
@@ -515,6 +553,7 @@ footer {
 }
 
 @media (max-width: 462px) {
+
   /*introduction section responsive*/
   .cta-buttons {
     grid-template-columns: repeat(1, 1fr);
